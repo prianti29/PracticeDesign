@@ -1,82 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>University website design - easy tutorials</title>
-    <link rel="stylesheet" href="style.css" />
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" /> -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
-  <body>
-    <section class="sub-header">
-      <nav>
-        <a href="index.html"><img src="/img/logo.png"/></a>
-        <div class="nav-links" id="navlinks">
-          <i class="fa fa-times" onclick="hidemenu()"></i>
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="course.html">COURSE</a></li>
-            <li><a href="bolg.html">BLOGS</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-          </ul>
-        </div>
-        <i class="fa fa-bars" onclick="showmenu()"></i>
-      </nav>
-      <h1>About Us</h1>
-    </section>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>University website design - easy tutorials</title>
+        <link rel="stylesheet" href="style.css" />
+        <!-- <link rel="preconnect" href="https://fonts.gstatic.com" /> -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="/img/logo.png" /></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="bolg.html">BLOGS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+        </section>
 
-    <!-- About us content -->
-    <section class="about-us">
-<div class="row">
-  <div class="about-col">
-  <h1>We are the world's largest university</h1>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, vitae corporis atque itaque consequatur corrupti mollitia veritatis, impedit praesentium laborum dolores cum cupiditate unde odio dolore quisquam similique sequi nobis. Obcaecati, vitae corporis atque itaque consequatur corrupti mollitia veritatis, impedit praesentium laborum dolores cum cupiditate unde odio dolore quisquam similique sequi 
-  </p>
-  <a href="" class="hero-btn red-btn"> EXPLORE NOW0</a>
-  </div>
-  <div class="about-col">
-    <img src="/img/about.jpg">
-  </div>
-</div>
-    </section>
+        <!-- About us content -->
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are the world's largest university</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Obcaecati, vitae corporis atque itaque consequatur
+                        corrupti mollitia veritatis, impedit praesentium laborum
+                        dolores cum cupiditate unde odio dolore quisquam
+                        similique sequi nobis. Obcaecati, vitae corporis atque
+                        itaque consequatur corrupti mollitia veritatis, impedit
+                        praesentium laborum dolores cum cupiditate unde odio
+                        dolore quisquam similique sequi
+                    </p>
+                    <a href="" class="hero-btn red-btn"> EXPLORE NOW0</a>
+                </div>
+                <div class="about-col">
+                    <img src="/img/about.jpg" />
+                </div>
+            </div>
+        </section>
 
-    <!-- Footer -->
-    <section class="footer">
-      <h4>About Us</h4>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium
-        <br />
-        aliquam laudantium tempore tenetur consequatur nobis.
-      </p>
-      <div class="icons">
-        <i class="fa fa-facebook"></i>
-        <i class="fa fa-twitter"></i>
-        <i class="fa fa-instagram"></i>
-        <i class="fa fa-linkedin"></i>
-      </div>
-      <p>made with <i class="fa fa-heart-o"></i> by easy tutorials</p>
-    </section>
+        <!-- Footer -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Praesentium
+                <br />
+                aliquam laudantium tempore tenetur consequatur nobis.
+            </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>made with <i class="fa fa-heart-o"></i> by easy tutorials</p>
+        </section>
 
-    <!-- Javascript for toggole menu  -->
-    <script>
-      var navlinks = document.getElementById("navlinks");
-      function showmenu() {
-        navlinks.style.right = "0";
-      }
-      function hidemenu() {
-        navlinks.style.right = "-200px";
-      }
-    </script>
-  </body>
+        <!-- Javascript for toggole menu  -->
+        <script>
+            var navlinks = document.getElementById("navlinks");
+            function showmenu() {
+                navlinks.style.right = "0";
+            }
+            function hidemenu() {
+                navlinks.style.right = "-200px";
+            }
+        </script>
+    </body>
 </html>
